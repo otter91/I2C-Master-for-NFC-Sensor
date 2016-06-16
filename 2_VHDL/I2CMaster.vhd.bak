@@ -18,7 +18,7 @@ entity I2CMaster is
                val_rec : Out std_logic_vector(7 downto 0));
 end I2CMaster;
 
-architecture shematic of I2CMaster is
+architecture schematic of I2CMaster is
 
    signal           load_val : std_logic;
    signal	    load_add : std_logic;
@@ -33,7 +33,7 @@ architecture shematic of I2CMaster is
    signal                ack : std_logic;
    signal                 rw : std_logic;
    signal              cout2 : std_logic;
-   signal	      cout16 : std_logic );
+   signal	            cout16 : std_logic;
 
 
    component DataPath
@@ -50,47 +50,42 @@ architecture shematic of I2CMaster is
 	     scl_mode : In    std_logic_vector(1 downto 0);
 	      sda_ena : In    std_logic;
 	      scl_ena : In    std_logic;
-              AL_REC : Out   std_logic_vector(7 downto 0);
+              VAL_REC : Out   std_logic_vector(7 downto 0);
 		  SDA : Out   std_logic;
 		  SCL : Out   std_logic;
 		  ack : Out   std_logic;
 		   rw : Out   std_logic;
  		cout2 : Out   std_logic;
-	       cout16 : Out   std_logic );
+	       cout16 : Out   std_logic);
    end component;
 
    component ControlFSM
-     Port ( cardReady : In     std_logic;
-                clock : In     std_logic;
-                cmp11 : In     std_logic;
-                cmp16 : In     std_logic;
-              --cmp18 : In     std_logic;
-                cmp21 : In     std_logic;
-                  rst : In     std_logic;
-                 lost : Out    std_logic;
-               enaAdd : Out    std_logic;
-              enaLoad : Out    std_logic;
-             enaScore : Out    std_logic;
-             finished : Out    std_logic;
-              newCard : Out    std_logic;
-                  sel : Out    std_logic );
+      Port (      clk : In    std_logic;
+                  rst : In    std_logic;
+		  ack : In    std_logic;
+		   rw : In    std_logic;
+ 		cout2 : In    std_logic;
+	       cout16 : In    std_logic;
+             load_val : Out   std_logic;
+	     load_add : Out   std_logic;
+	     read_val : Out   std_logic;
+	   shift_mode : Out   std_logic;
+	 bit_cnt2_ena : Out   std_logic;
+	bit_cnt16_ena : Out   std_logic;
+  	     sda_mode : Out   std_logic_vector(1 downto 0); 
+	     scl_mode : Out   std_logic_vector(1 downto 0);
+	      sda_ena : Out   std_logic;
+	      scl_ena : Out   std_logic);
    end component;
 
 
 begin
 
    I_1 : DataPath
-      Port Map (cardValue,clock,enaAdd,enaLoad,enaScore,start,sel,
-                 cmp11,cmp16,cmp21,score);
+      Port Map (VAL_SEND, clk, rst, load_val, load_add, read_val, shift_mode, bit_cnt2_ena, bit_cnt16_ena,
+	        sda_mode, scl_mode, sda_ena, scl_ena, VAL_REC, SDA, SCL, ack, rw, cout2, cout16);
    I_2 : ControlFSM
-      Port Map (cardReady,clock,cmp11,cmp16,cmp21,start,lost,enaAdd,
-		 enaLoad,enaScore,finished,newCard,sel);
-   -- here you add your FSM component
-   -- the methode used above is a position-based wiring, example the position 6 means
-   -- that the signal "start" on the "BlackJack" hierarchical level is connected to signal "rst"
-   -- on the "DataPath" level. Components referenced (like "DataPath" need first to be declared).
-   -- ...
-   -- ...
-
+      Port Map (clk, rst, ack, rw, cout2, cout16, load_val, load_add, read_val, shift_mode, bit_cnt2_ena,
+                bit_cnt16_ena, sda_mode, scl_mode, sda_ena, scl_ena);
 
 end schematic;

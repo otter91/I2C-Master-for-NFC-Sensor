@@ -164,7 +164,7 @@ begin
                    bit16_cnt_s(0); 
                
   sda_pre_s <= '1'            when sda_mode = "00" else
-               data_bit1_s     when sda_mode = "01" else
+               data_bit1_s     when sda_moce = "01" else
                data_bit2_s     when sda_mode = "10" else
                '0'; 
 
