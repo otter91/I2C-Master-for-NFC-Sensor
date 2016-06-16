@@ -1,0 +1,20 @@
+PROJECT_LIST=config/project.files
+PROJECT_FORCE=config/project.force
+REL_PATH=..
+SHELL=/bin/bash
+VHDL_FILES := $(shell cat $(REL_PATH)/$(PROJECT_LIST))
+TOPLEVEL := $(shell cat $(REL_PATH)/$(PROJECT_TOP))
+MODELSIM_LIB=vlib
+MODELSIM_VHDL_COMP=vcom
+MODELSIM_VERILOG_COMP=vlog
+MODELSIM_SIM=vsim
+
+define run_modelsim
+rm -rf work
+$(MODELSIM_LIB) work
+echo -e $(foreach file, $(VHDL_FILES) , "$(REL_PATH)/vhdl/$(file)\n" ) | xargs $(MODELSIM_VHDL_COMP)
+$(MODELSIM_SIM) -do $(REL_PATH)/$(PROJECT_FORCE)
+endef #run_modelsim
+
+default: $(REL_PATH)/$(PROJECT_LIST) $(REL_PATH)/$(PROJECT_FORCE)
+	@$(run_modelsim)

@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox
+T_opt
+VZQMWLeRSkiFT^9iW]YF]E2
+04 5 3 work myand rtl 1
+Z1 =2--5762c3f4-dfbff-6ef7
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 n@_opt
+Z4 OL;O;6.5b;42
+Emyand
+Z5 w1464360076
+Z6 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z7 8../vhdl/myAnd-entity.vhdl
+Z8 F../vhdl/myAnd-entity.vhdl
+l0
+L4
+Z9 V5=lLH]`ANzPTkgVbS9gZ30
+Z10 OL;C;6.5b;42
+32
+Z11 tExplicit 1
+Z12 !s100 LWj16<VX156lcAJCRSU1F0
+Artl
+R6
+Z13 DEx4 work 5 myand 0 22 5=lLH]`ANzPTkgVbS9gZ30
+Z14 8../vhdl/myAnd-rtl.vhdl
+Z15 F../vhdl/myAnd-rtl.vhdl
+l3
+L1
+Z16 Vz2UZJ[dT70ZV3XVng]Jcf3
+R10
+32
+Z17 Mx1 4 ieee 14 std_logic_1164
+R11
+Z18 !s100 AETnUL0WPBT9:@j0=oBW22

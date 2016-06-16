@@ -1,0 +1,37 @@
+# //  ModelSim SE-64 6.5b May 21 2009 Linux 4.5.0-2cairon1-amd64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do ../config/project.force 
+# vsim -t ps traffic_light 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Failed to find design unit work.traffic_light.
+# Optimization failed
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./../config/project.force PAUSED at line 1
+vsim -t ps work.myand
+# vsim -t ps work.myand 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.myand(rtl)#1
+project.force
+# invalid command name "project.force"
+pwd
+# /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+pwd
+# /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox
+run
+run
+run

@@ -1,0 +1,4 @@
+vsim -t ps traffic_light
+add wave -hex *
+force clock 0 0 , 1 1 ns -repeat 2 ns
+force reset 1 0 , 0 10 ns
