@@ -1,0 +1,18 @@
+# //  ModelSim SE-64 6.5b May 21 2009 Linux 4.5.0-2cairon1-amd64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project test
+# reading /mnt/apps/modelsim/6.5d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project t
+# Compile of DatapathI2C_TB.vhdl failed with 1 errors.
+# Compile of DatapathI2C_TB.vhdl failed with 1 errors.
+# Compile of DatapathI2C_TB.vhdl failed with 1 errors.
+# Compile of DatapathI2C_TB.vhdl failed with 1 errors.
+# Compile of DatapathI2C_TB.vhdl was successful.

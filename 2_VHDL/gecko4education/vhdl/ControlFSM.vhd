@@ -1,46 +1,45 @@
---
--- Stefan von Burg 
--- 15.06.2016
--- Bachelor-Thesis
+-- updated version
+-- elaborated rules: differenciate between 16 or 18 if ace present
+-- Marcel Jacomet
+-- December 31 Mar 2014
+-- HuCE-microLab
 --
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.std_logic_unsigned.all;
 
 entity ControlFSM is
-      Port (      clk : In    std_logic;
-                  rst : In    std_logic;
-		              ack : In    std_logic;
-		               rw : In    std_logic;
- 		            cout2 : In    std_logic;
-	             cout16 : In    std_logic;
-             load_val : Out   std_logic;
-	           load_add : Out   std_logic;
-	           read_val : Out   std_logic;
-	         shift_mode : Out   std_logic;
-	       bit_cnt2_ena : Out   std_logic;
-	      bit_cnt16_ena : Out   std_logic;
-  	          sda_mode : Out   std_logic_vector(1 downto 0); 
-	           scl_mode : Out   std_logic_vector(1 downto 0);
-	            sda_ena : Out   std_logic;
-	            scl_ena : Out   std_logic);
+      Port (cardReady : In     std_logic;
+                clock : In     std_logic;
+                cmp11 : In     std_logic;
+                cmp16 : In     std_logic;
+              --cmp18 : In     std_logic;
+                cmp21 : In     std_logic;
+                  rst : In     std_logic;
+                 lost : Out    std_logic;
+               enaAdd : Out    std_logic;
+              enaLoad : Out    std_logic;
+             enaScore : Out    std_logic;
+             finished : Out    std_logic;
+              newCard : Out    std_logic;
+                  sel : Out    std_logic );
 end ControlFSM;
 
 
 architecture behavioral of ControlFSM is
   type StateType is 	(callcard,
-			                loadcard,
-			                addval,
-			                decide,
-			                hidelost,
-			                showwin,
-			                load1,
-			                load2,
-			                decidewithace,
-			                addvalwithace,
-			                loadcardwithace,
-			                callcardwithace,
-			                IllegalState);
+			loadcard,
+			addval,
+			decide,
+			hidelost,
+			showwin,
+			load1,
+			load2,
+			decidewithace,
+			addvalwithace,
+			loadcardwithace,
+			callcardwithace,
+			IllegalState);
 
   signal outvec       : std_logic_vector(6 downto 0);
   signal state        : StateType;

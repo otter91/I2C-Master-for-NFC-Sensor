@@ -9,29 +9,10 @@
 # //  AND IS SUBJECT TO LICENSE TERMS.
 # //
 # do ../config/project.force 
-# vsim -t ps traffic_light 
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error: Failed to find design unit work.traffic_light.
-# Optimization failed
-# Error loading design
-# Error: Error loading design 
-#        Pausing macro execution 
-# MACRO ./../config/project.force PAUSED at line 1
-vsim -t ps work.myand
-# vsim -t ps work.myand 
+# vsim -t ns Datapath 
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading std.standard
 # Loading ieee.std_logic_1164(body)
-# Loading work.myand(rtl)#1
-project.force
-# invalid command name "project.force"
-pwd
-# /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox
-cd ..
-# Cannot change directory while a simulation is in progress.
-# Use the "quit -sim" command to unload the design first.
-pwd
-# /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox
-run
-run
-run
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.datapath(behavioral)#1

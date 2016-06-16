@@ -1,7 +1,8 @@
---
--- Stefan von Burg 
--- 15.06.2016
--- Bachelor-Thesis
+-- updated version
+-- elaborated rules: differeciate between 16 or 18 if ass present
+-- Marcel Jacomet
+-- December 28 Mar 2014
+-- HuCE-microLab
 --
 library IEEE;
 use IEEE.std_logic_1164.all;
@@ -23,7 +24,7 @@ Architecture A of E is
    component BlackJack
       Port ( cardReady : In  std_logic;
              cardValue : In  std_logic_vector(3 downto 0);
-                   clk : In  std_logic;
+                 clock : In  std_logic;
                  start : In  std_logic;
                   lost : Out std_logic;
               finished : Out std_logic;

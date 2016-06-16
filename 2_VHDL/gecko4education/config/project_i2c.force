@@ -1,0 +1,20 @@
+vsim -t ns DatapathI2C
+add wave -hex *
+force clk 0 0 , 1 1 ns -repeat 2 ns
+force rst 0 0 , 1 10 ns
+	      
+force VAL_SEND 00000000 0, 01010101 15ns, 01010101 20ns
+force load_val 0 0, 1 18ns, 0 20ns , 1 56ns
+force load_add 0 0, 1 18ns, 0 20ns 
+force read_val 0 0
+force shift_mode 0 0
+force bit_cnt2_ena 0 0, 1 20ns, 0 24ns, 1 56ns
+force bit_cnt16_ena 0 0, 1 24ns, 0 56ns
+force sda_mode 00 0, 11 20ns, 01 24ns, 00 56ns  
+force scl_mode 00 0, 01 20ns, 11 24ns, 00 56ns
+force sda_ena 0 0, 1 20ns, 0 56ns
+force scl_ena 0 0, 1 20ns, 0 56ns            
+force VAL_REC 00000000 0
+                  
+
+run 100ns

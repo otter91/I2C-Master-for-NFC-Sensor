@@ -1,2 +1,5 @@
-myAnd-entity.vhdl
-myAnd-rtl.vhdl
+
+DataPath.vhd
+ControlFSM.vhd
+BlackJack.vhd
+tb_BlackJack.vhd
