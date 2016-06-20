@@ -9,20 +9,33 @@
 # //  AND IS SUBJECT TO LICENSE TERMS.
 # //
 # Loading project blackjack
-# Load canceled
-vsim work.blackjack
-# vsim work.blackjack 
-# ** Note: (vsim-3812) Design is being optimized...
+# Compile of BlackJack.vhd was successful.
+# Compile of ControlFSM.vhd was successful.
+# Compile of DataPath.vhd was successful.
+# Compile of tb.vhd was successful.
+# Compile of tb_BlackJack.vhd was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.cfg_behavioral_tb_blackjack
+# vsim work.cfg_behavioral_tb_blackjack 
 # Loading std.standard
 # Loading ieee.std_logic_1164(body)
+# Loading work.cfg_behavioral_tb_blackjack#1
+# Loading work.e(a)#1
 # Loading ieee.std_logic_arith(body)
 # Loading ieee.std_logic_unsigned(body)
 # Loading work.blackjack(schematic)#1
-run -all
+# Drop insertion failed: sim:/e/uut/i_1/reg/*
+# (vish-4014) No objects found matching 'sim:/e/uut/i_1/reg/*'.
+# Drop insertion failed: sim:/e/uut/i_1/reg/*
+# (vish-4014) No objects found matching 'sim:/e/uut/i_1/reg/*'.
+run 100
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /blackjack/i_1
+#    Time: 0 ps  Iteration: 0  Instance: /e/uut/i_1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /blackjack/i_1
+#    Time: 0 ps  Iteration: 0  Instance: /e/uut/i_1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /blackjack/i_1
+#    Time: 0 ps  Iteration: 0  Instance: /e/uut/i_1
+run 100
+run 100
+run 100
 run 100

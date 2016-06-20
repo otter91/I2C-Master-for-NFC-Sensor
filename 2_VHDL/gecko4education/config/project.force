@@ -1,2 +1,5 @@
-vsim -t ns Datapath
+vsim -t ns I2CMaster_TB
 add wave -hex *
+
+
+run 100ns

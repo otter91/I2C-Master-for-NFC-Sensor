@@ -4,9 +4,9 @@ K3
 cModel Technology
 Z0 d/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox
 T_opt
-Z1 Vj48zl9Gc@i4_iVh_L_Ef82
-Z2 04 8 10 work datapath behavioral 1
-Z3 =1--5763132d-46b66-6b78
+Z1 Vz;P3oNSfR37djDB4;AWJE2
+Z2 04 1 1 work e a 1
+Z3 =1--5763d338-f019-6eb4
 Z4 o-quiet -auto_acc_if_foreign -work work
 Z5 n@_opt
 Z6 OL;O;6.5b;42
@@ -82,53 +82,60 @@ R13
 Z38 !s100 9g]CS5T^CfV8;H`b4EJ[m2
 Edatapath
 Z39 w1460636878
-Z40 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
-Z41 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
-Z42 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
-32
-Z43 8../vhdl/DataPath.vhd
-Z44 F../vhdl/DataPath.vhd
+R27
+R28
+R8
+Z40 8../vhdl/DataPath.vhd
+Z41 F../vhdl/DataPath.vhd
 l0
 L11
-Z45 Vj3LL[ohPFLeJRh^jA6Nh>0
+Z42 Vj3LL[ohPFLeJRh^jA6Nh>0
 R12
-R13
-Z46 !s100 =Cd0Wf815?hd?6aWcE8;03
-Abehavioral
-R40
-R41
-R42
-DEx81 /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox/work 8 datapath 0 22 j3LL[ohPFLeJRh^jA6Nh>0
 32
-Mx3 17 __model_tech/ieee 14 std_logic_1164
-Mx2 17 __model_tech/ieee 18 std_logic_unsigned
-Mx1 17 __model_tech/ieee 15 std_logic_arith
+R13
+Z43 !s100 =Cd0Wf815?hd?6aWcE8;03
+Abehavioral
+R27
+R28
+R8
+Z44 DEx4 work 8 datapath 0 22 j3LL[ohPFLeJRh^jA6Nh>0
 l32
 L26
-Z47 VB71YW2b;U?M@@_OcYGN`z2
+Z45 VB71YW2b;U?M@@_OcYGN`z2
 R12
+32
+R35
+R36
+R37
 R13
-Z48 !s100 `PlBQEdaTf_6BiDgM]W`M2
+Z46 !s100 `PlBQEdaTf_6BiDgM]W`M2
 Ee
 R21
-R8
+Z47 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
 R22
 R23
 l0
 L10
-Z49 VANTAi7`Bo1^1]4R@WZBV03
+Z48 VANTAi7`Bo1^1]4R@WZBV03
 R12
-32
 R13
-Z50 !s100 JBJi^odTMj3KaoL>?6JSX0
+Z49 !s100 JBJi^odTMj3KaoL>?6JSX0
 Aa
-R8
-R20
+DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+DEx81 /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox/work 10 controlfsm 0 22 <l::dRGW>:`D252M:V9=P2
+DEx81 /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox/work 8 datapath 0 22 j3LL[ohPFLeJRh^jA6Nh>0
+DEx81 /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox/work 9 blackjack 0 22 Wlo4JkCOk]]nhCe]7A2]43
+R47
+DEx81 /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/gecko4education/sandbox/work 1 e 0 22 ANTAi7`Bo1^1]4R@WZBV03
+32
+Mx3 17 __model_tech/ieee 14 std_logic_1164
+Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Mx1 17 __model_tech/ieee 15 std_logic_arith
 l35
 L13
-Z51 VaUL6bOioGYX8Vb5]12<Sm2
+Z50 VaUL6bOioGYX8Vb5]12<Sm2
 R12
-32
-R17
 R13
-Z52 !s100 _jo5YF5hI@mG1>Sg69Jd;1
+Z51 !s100 _jo5YF5hI@mG1>Sg69Jd;1
