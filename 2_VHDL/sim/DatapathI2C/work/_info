@@ -1,0 +1,113 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/vonbs3/Thesis/test
+T_opt
+V>PRZ:Ge?eSWf1]2M:HJ551
+Z1 04 10 0 work behavioral 1
+=9--57680eba-3ab16-7367
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z3 OL;O;6.5b;42
+T_opt1
+VKd<E7EZLDKe1j=P6SQnEj2
+04 11 10 work datapathi2c behavioral 1
+=1--5767f702-9118c-62cf
+R2
+n@_opt1
+R3
+T_opt2
+V:dW]PX=K>h3OaGdki2m7@1
+R1
+=77--57697fee-6f3d1-20f1
+R2
+n@_opt2
+R3
+Cbehavioral
+aa
+ee
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z5 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z6 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z7 DEx4 work 11 datapathi2c 0 22 m8PVel_6[A8CRXzK;9ej;2
+DAx4 work 1 e 1 a 22 Rz92mBVX1<Q]HNg5Fcd5o1
+Z8 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z9 DEx4 work 1 e 0 22 U<O7g37z2]=o[50V^agUe1
+Z10 w1466531388
+Z11 d/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C
+Z12 8/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C/DatapathI2C_TB.vhdl
+Z13 F/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C/DatapathI2C_TB.vhdl
+l0
+L199
+VB]>AIFD>C]]YfTXJFTTNN1
+!s100 Kb6dCeWoD16Ue_P29;SIT3
+Z14 OL;C;6.5b;42
+32
+Z15 Mx4 4 ieee 14 std_logic_1164
+Mx3 4 ieee 11 numeric_std
+Z16 Mx2 4 ieee 15 std_logic_arith
+Mx1 4 ieee 18 std_logic_unsigned
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1
+Edatapathi2c
+Z19 w1466531968
+R6
+R5
+R4
+R8
+R11
+Z20 8/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C/DatapathI2C.vhdl
+Z21 F/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C/DatapathI2C.vhdl
+l0
+L11
+Vm8PVel_6[A8CRXzK;9ej;2
+R14
+32
+R17
+R18
+!s100 D2A6KmR^Lh[1?Vk=W?A>[3
+Abehavioral
+R6
+R5
+R4
+R8
+R7
+l56
+L34
+V_M[HFIbf>BSFl@Z2F[Go10
+!s100 FE@51k:Q3ejPl>m:>B59C0
+R14
+32
+R15
+Mx3 4 ieee 18 std_logic_unsigned
+R16
+Mx1 4 ieee 11 numeric_std
+R17
+R18
+Ee
+R10
+R8
+R11
+R12
+R13
+l0
+L9
+VU<O7g37z2]=o[50V^agUe1
+!s100 l^I;JII7@eQ]hT^M7d3;e0
+R14
+32
+R17
+R18
+Aa
+R8
+R9
+l58
+L12
+Z22 VRz92mBVX1<Q]HNg5Fcd5o1
+Z23 !s100 ]dnm@8H4F7VD[bkPhT5D00
+R14
+32
+Z24 Mx1 4 ieee 14 std_logic_1164
+R17
+R18

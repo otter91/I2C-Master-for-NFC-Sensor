@@ -1,0 +1,106 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/vonbs3/Thesis/test
+T_opt
+Z1 VAnDTHCDENWi@2HYkBK5Qm0
+Z2 04 10 0 work behavioral 1
+Z3 =8--5767ea7f-38cc2-2ca3
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5b;42
+T_opt1
+Z7 VKd<E7EZLDKe1j=P6SQnEj2
+Z8 04 11 10 work datapathi2c behavioral 1
+Z9 =1--5767f702-9118c-62cf
+R4
+Z10 n@_opt1
+R6
+T_opt2
+Z11 VA3IiY0QU^W?b^;f0=<UQn1
+R2
+Z12 =1--5767efcc-5ee99-5636
+R4
+Z13 n@_opt2
+R6
+Cbehavioral
+aa
+ee
+Z14 DAx4 work 1 e 1 a 22 HEY7BZjlFbk6D]]mc7^BL1
+Z15 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z16 DEx4 work 1 e 0 22 U<O7g37z2]=o[50V^agUe1
+Z17 w1466427928
+Z18 d/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C
+Z19 8/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C/DatapathI2C_TB.vhdl
+Z20 F/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C/DatapathI2C_TB.vhdl
+l0
+L130
+Z21 VB]>AIFD>C]]YfTXJFTTNN1
+Z22 OL;C;6.5b;42
+32
+Z23 Mx1 4 ieee 14 std_logic_1164
+Z24 o-work work -2002 -explicit
+Z25 tExplicit 1
+Z26 !s100 N[FK<T[7nGK[k6QgJEk<H0
+Edatapathi2c
+Z27 w1466428333
+Z28 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z29 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z30 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z31 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R18
+Z32 8/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C/DatapathI2C.vhdl
+Z33 F/home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C/DatapathI2C.vhdl
+l0
+L12
+Z34 V:[1FaZjPY?LV4m>;nj6g;1
+R22
+R24
+R25
+Z35 !s100 6G[7E60hGTHnBMRMKTAgU1
+Abehavioral
+R28
+R29
+R30
+R31
+DEx73 /home/vonbs3/Thesis/I2C-Master-for-NFC-Sensor/2_VHDL/sim/DatapathI2C/work 11 datapathi2c 0 22 :[1FaZjPY?LV4m>;nj6g;1
+32
+Mx4 17 __model_tech/ieee 14 std_logic_1164
+Mx3 17 __model_tech/ieee 18 std_logic_unsigned
+Mx2 17 __model_tech/ieee 15 std_logic_arith
+Mx1 17 __model_tech/ieee 11 numeric_std
+l61
+L37
+Z36 V7<JzaO]o_oaaX2T]K;?NX0
+R22
+R24
+R25
+Z37 !s100 8T6^]bnWUdjz:DoPlcB4[3
+Ee
+R17
+R15
+R18
+R19
+R20
+l0
+L9
+Z38 VU<O7g37z2]=o[50V^agUe1
+R22
+32
+R24
+R25
+Z39 !s100 l^I;JII7@eQ]hT^M7d3;e0
+Aa
+R15
+R16
+l60
+L12
+Z40 VHEY7BZjlFbk6D]]mc7^BL1
+R22
+32
+R23
+R24
+R25
+Z41 !s100 Y_7ANCe?h43cH0d5Xe::20
